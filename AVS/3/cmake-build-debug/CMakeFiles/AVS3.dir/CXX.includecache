@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/death/CLionProjects/AVS3/main.cpp
+iostream
+-
+cmath
+-
+iomanip
+-
+ctime
+-
+unistd.h
+-
+x86intrin.h
+-
+climits
+-
+sys/time.h
+-
+
