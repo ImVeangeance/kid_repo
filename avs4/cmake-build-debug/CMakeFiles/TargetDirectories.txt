@@ -1,0 +1,3 @@
+C:/Users/death/Desktop/avs4/cmake-build-debug/CMakeFiles/avs4.dir
+C:/Users/death/Desktop/avs4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/death/Desktop/avs4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
