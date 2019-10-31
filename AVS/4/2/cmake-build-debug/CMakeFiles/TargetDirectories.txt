@@ -1,0 +1,3 @@
+/home/death/sharaga/AVS/4/2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/death/sharaga/AVS/4/2/cmake-build-debug/CMakeFiles/2.dir
+/home/death/sharaga/AVS/4/2/cmake-build-debug/CMakeFiles/edit_cache.dir

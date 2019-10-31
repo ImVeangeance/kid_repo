@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/death/sharaga/AVS/4/1/main.cpp
+iostream
+-
+vector
+-
+cstdlib
+-
+ctime
+-
+algorithm
+-
+iomanip
+-
+random
+-
+x86intrin.h
+-
+
