@@ -46,4 +46,5 @@ int64_t saxpy_blas(std::vector <int64_t> &X, std::vector <int64_t> &Y)
     for(auto iterator = 0 ; iterator < sumary.size(); iterator++)
         sumary[iterator] = X[iterator] * a + Y[iterator];
     std::cout << "\n\nTime(TSC) - " << std::fixed << std::setprecision(10) << (double_t)(__rdtsc() - start) / proc_tc;
+    return 0;
 }

@@ -12,7 +12,7 @@
   <line>Command: /home/death/sharaga/AVS/4/1/cmake-build-debug/1</line>
 </preamble>
 
-<pid>4489</pid>
+<pid>5607</pid>
 <ppid>2609</ppid>
 <tool>memcheck</tool>
 
@@ -35,91 +35,13 @@
 
 <status>
   <state>RUNNING</state>
-  <time>00:00:00:00.519 </time>
+  <time>00:00:00:00.068 </time>
 </status>
-
-<fatal_signal>
-  <tid>1</tid>
-  <signo>27</signo>
-  <signame>SIGPROF</signame>
-  <sicode>128</sicode>
-  <siaddr>0x0</siaddr>
-  <stack>
-    <frame>
-      <ip>0x54ECDAF</ip>
-      <obj>/lib/x86_64-linux-gnu/libc-2.27.so</obj>
-      <fn>__open_nocancel</fn>
-      <dir>/build/glibc-OTsEL5/glibc-2.27/io/../sysdeps/unix/sysv/linux</dir>
-      <file>open64.c</file>
-      <line>69</line>
-    </frame>
-    <frame>
-      <ip>0x550091F</ip>
-      <obj>/lib/x86_64-linux-gnu/libc-2.27.so</obj>
-      <fn>write_gmon</fn>
-      <dir>/build/glibc-OTsEL5/glibc-2.27/gmon</dir>
-      <file>gmon.c</file>
-      <line>370</line>
-    </frame>
-    <frame>
-      <ip>0x55010DA</ip>
-      <obj>/lib/x86_64-linux-gnu/libc-2.27.so</obj>
-      <fn>_mcleanup</fn>
-      <dir>/build/glibc-OTsEL5/glibc-2.27/gmon</dir>
-      <file>gmon.c</file>
-      <line>444</line>
-    </frame>
-    <frame>
-      <ip>0x5420614</ip>
-      <obj>/lib/x86_64-linux-gnu/libc-2.27.so</obj>
-      <fn>__cxa_finalize</fn>
-      <dir>/build/glibc-OTsEL5/glibc-2.27/stdlib</dir>
-      <file>cxa_finalize.c</file>
-      <line>83</line>
-    </frame>
-    <frame>
-      <ip>0x108F02</ip>
-      <obj>/home/death/sharaga/AVS/4/1/cmake-build-debug/1</obj>
-    </frame>
-    <frame>
-      <ip>0x4010B72</ip>
-      <obj>/lib/x86_64-linux-gnu/ld-2.27.so</obj>
-      <fn>_dl_fini</fn>
-      <dir>/build/glibc-OTsEL5/glibc-2.27/elf</dir>
-      <file>dl-fini.c</file>
-      <line>138</line>
-    </frame>
-    <frame>
-      <ip>0x5420040</ip>
-      <obj>/lib/x86_64-linux-gnu/libc-2.27.so</obj>
-      <fn>__run_exit_handlers</fn>
-      <dir>/build/glibc-OTsEL5/glibc-2.27/stdlib</dir>
-      <file>exit.c</file>
-      <line>108</line>
-    </frame>
-    <frame>
-      <ip>0x5420139</ip>
-      <obj>/lib/x86_64-linux-gnu/libc-2.27.so</obj>
-      <fn>exit</fn>
-      <dir>/build/glibc-OTsEL5/glibc-2.27/stdlib</dir>
-      <file>exit.c</file>
-      <line>139</line>
-    </frame>
-    <frame>
-      <ip>0x53FEB9D</ip>
-      <obj>/lib/x86_64-linux-gnu/libc-2.27.so</obj>
-      <fn>(below main)</fn>
-      <dir>/build/glibc-OTsEL5/glibc-2.27/csu/../csu</dir>
-      <file>libc-start.c</file>
-      <line>344</line>
-    </frame>
-  </stack>
-</fatal_signal>
 
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:06.121 </time>
+  <time>00:00:00:17.753 </time>
 </status>
 
 <errorcounts>
