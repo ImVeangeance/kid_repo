@@ -34,8 +34,8 @@ int main()
     for(auto &i : Y)
         std::cout << i << "\n";
     */saxpy_blas(X,Y);
-    std::cout << "\nSumary vector\n";
-    /*for(auto &i : sumary)
+    /*std::cout << "\nSumary vector\n";
+    for(auto &i : sumary)
         std::cout << i << " ";
     */return 0;
 }
