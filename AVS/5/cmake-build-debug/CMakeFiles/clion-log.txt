@@ -1,0 +1,4 @@
+/home/dotdeath/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dotdeath/git_repo/kid_repo/AVS/5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dotdeath/git_repo/kid_repo/AVS/5/cmake-build-debug

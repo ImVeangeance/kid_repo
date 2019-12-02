@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dotdeath/git_repo/kid_repo/AVS/5/main.cpp
+iostream
+-
+chrono
+-
+pthread.h
+-
+vector
+-
+string
+-
+random
+-
+
