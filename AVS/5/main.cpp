@@ -45,16 +45,16 @@ int main()
 
     auto t3 = std::chrono::high_resolution_clock::now();
     std::chrono::duration <double_t> elapsedSeconds{};
-    std::cout << "\nRandom & computing time: " << std::endl;
+    std::cout << "\nRandom & computing time: ";
     elapsedSeconds = t3 - t1;
     std::cout << elapsedSeconds.count() << " seconds." << std::endl;
-    std::cout << "\nRandom time: " << std::endl;
+    /*std::cout << "\nRandom time: " << std::endl;
     elapsedSeconds = t2 - t1;
     std::cout << elapsedSeconds.count() << " seconds." << std::endl;
     std::cout << "\nComputing time: " << std::endl;
     elapsedSeconds = t3 - t2;
     std::cout << elapsedSeconds.count() << " seconds." << std::endl;
-    return 0;
+    */return 0;
 }
 
 void *num_gen(void *arg)
@@ -89,8 +89,16 @@ void *multiply(void *arg)
     {
         for(auto j = 0; j < size; j++)
         {
-            result[i] = matrix[i][j] * x[j];
+            result[i] += matrix[i][j] * x[j];
         }
     }
+    /*
+     for (int i = row_start; i < row_end; i++){
+        res[i] = 0;
+        for (int j = 0; j < n_SIZE; j++){
+            res[i] += matrix[i][j] * vector_x[j];
+        }
+    }
+    */
     pthread_exit(nullptr);
 }
