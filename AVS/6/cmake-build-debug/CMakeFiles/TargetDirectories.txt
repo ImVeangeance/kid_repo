@@ -1,0 +1,3 @@
+/home/dotdeath/git_repo/sibsutis/avs/lab6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dotdeath/git_repo/sibsutis/avs/lab6/cmake-build-debug/CMakeFiles/lab6.dir
+/home/dotdeath/git_repo/sibsutis/avs/lab6/cmake-build-debug/CMakeFiles/edit_cache.dir
